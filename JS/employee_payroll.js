@@ -56,7 +56,6 @@ class EmployeePayrollData{
     get startDate() {
         return this._startDate;
     }
-    
     set startDate(startDate) {
         debugger;
         let newDate = startDate.getTime();
