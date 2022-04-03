@@ -113,6 +113,7 @@ const setValue = (id,value) => {
     element.setAttribute('value',value);
 }
 
+
 const unsetSelectedValues = (propertyValue) => {
     let allItems = document.querySelectorAll(propertyValue);
     allItems.forEach(item => {
